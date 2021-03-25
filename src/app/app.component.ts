@@ -18,6 +18,9 @@ export class AppComponent {
   filterPhrase: string = '';
   filterKey: string = 'title';
 
+  // sorter
+  sortby: string = 'id';
+
   constructor(
     private todoService: TodoService,
   ) {}
@@ -47,5 +50,9 @@ export class AppComponent {
         this.todos$ = this.todoService.getAll();
       }
     )
+  }
+
+  sorter(param: string): void {
+    this.sortby = param;
   }
 }
