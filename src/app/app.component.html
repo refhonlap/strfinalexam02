@@ -96,7 +96,7 @@
       </div>
       <div class="modal-body">
         <p>Are you sure to delete this Todo?</p>
-        <p>#{{ selectedTodo.id }}</p>
+        <p>#{{ selectedTodo.id }} {{ selectedTodo.title }}</p>
       </div>
       <div class="modal-footer">
         <button (click)="onDelete()"  type="button" class="btn btn-danger" data-dismiss="modal">Yes</button>

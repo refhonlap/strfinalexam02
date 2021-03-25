@@ -197,12 +197,6 @@
       "title": "Learning",
       "description": "Fully-configurable intangible extranet",
       "active": true
-    },
-    {
-      "id": 35,
-      "title": "Preaching",
-      "description": "Preach the Gospel to the people",
-      "active": false
     }
   ]
 }
